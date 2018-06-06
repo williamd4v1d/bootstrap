@@ -1,0 +1,34 @@
+.logo {
+  background: rgb(54, 31, 110);
+}
+.redes{
+  text-align: right;
+}
+.redes a img{
+  width: 8%;
+}
+.logop img{
+  width: 50%;
+}
+.navd{
+  background: rgb(24, 20, 70);
+}
+.texto{
+  text-align: justify;
+  background: rgb(155, 219, 99);
+}
+.imgtext img{
+  width: 50%;
+}
+@media (max-width: 770px) {
+  .logop{
+    text-align: center;
+  }
+  .redes{
+    text-align: center;
+  }
+  .imgtext{
+    text-align: center;
+  }
+
+}
