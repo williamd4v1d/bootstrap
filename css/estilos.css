@@ -3,9 +3,12 @@
 }
 .redes{
   text-align: right;
+  margin-top: 10%;
+  margin-bottom: 5px;
 }
 .redes a img{
   width: 8%;
+
 }
 .logop img{
   width: 50%;
@@ -16,19 +19,26 @@
 .texto{
   text-align: justify;
   background: rgb(155, 219, 99);
+  height: 100%;
+  padding-bottom: 20px;
 }
 .imgtext img{
   width: 100%;
 }
-@media (max-width: 770px) {
+
+@media (max-width: 750px) {
   .logop{
     text-align: center;
   }
   .redes{
     text-align: center;
+    margin-top: 5px;
   }
   .imgtext{
     text-align: center;
+  }
+  .buscador{
+    display: none;
   }
 
 }
